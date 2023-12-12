@@ -88,6 +88,7 @@
             this.AUM.TabIndex = 4;
             this.AUM.Text = "AUMENTA";
             this.AUM.UseVisualStyleBackColor = true;
+            this.AUM.Click += new System.EventHandler(this.AUM_Click);
             // 
             // DIM
             // 
@@ -97,6 +98,7 @@
             this.DIM.TabIndex = 5;
             this.DIM.Text = "DIMINUISCI";
             this.DIM.UseVisualStyleBackColor = true;
+            this.DIM.Click += new System.EventHandler(this.DIM_Click);
             // 
             // MARCIA
             // 
